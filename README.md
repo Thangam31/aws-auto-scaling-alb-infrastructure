@@ -56,3 +56,13 @@ To maintain a **strict ₹0 budget profile**, all resources were safely decommis
 1. Deleted the Auto Scaling Group (`web-server-asg`) to automatically terminate linked EC2 instances.
 2. Deleted the Application Load Balancer (`web-app-alb`) and Target Group (`web-server-tg`).
 3. Removed the Launch Template (`web-server-template`) and Security Groups.
+## 📸 Proof of Implementation
+
+### 1. Application Load Balancer Live Dashboard
+![ALB Dashboard](01-alb-web-dashboard.png)
+
+### 2. Target Group Health Check (Healthy Status)
+![Target Group Healthy](02-target-group-healthy.png)
+
+### 3. Auto Scaling Group Activity Log
+![ASG Activity Log](03-asg-activity-history.png)
